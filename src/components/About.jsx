@@ -66,7 +66,7 @@ export default function About() {
 
             {/* Interests */}
             <div className="mt-8">
-              <p className="text-sm text-gray-500 font-medium mb-3 uppercase tracking-wide">Interests</p>
+              <p className="text-sm text-gray-500 font-medium mb-3 uppercase tracking-wide">Current Interests</p>
               <div className="flex flex-wrap gap-2">
                 {interests.map((item) => (
                   <span

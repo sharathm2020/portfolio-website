@@ -30,7 +30,9 @@ const icons = {
   ),
 }
 
-function SkillBar({ name, level, delay }) {
+const MAX_YEARS = 7
+
+function SkillBar({ name, years, delay }) {
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
@@ -41,13 +43,13 @@ function SkillBar({ name, level, delay }) {
     >
       <div className="flex justify-between items-center mb-1.5">
         <span className="text-sm text-gray-300 group-hover:text-white transition-colors">{name}</span>
-        <span className="text-xs text-gray-600 font-mono">{level}%</span>
+        <span className="text-xs text-gray-600 font-mono">{years} {years === 1 ? 'year' : 'years'}</span>
       </div>
       <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
         <motion.div
           className="h-full bg-gradient-to-r from-primary-500 to-accent-500 rounded-full"
           initial={{ width: 0 }}
-          whileInView={{ width: `${level}%` }}
+          whileInView={{ width: `${(years / MAX_YEARS) * 100}%` }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: delay + 0.2, ease: 'easeOut' }}
         />
@@ -116,7 +118,7 @@ export default function Skills() {
               <SkillBar
                 key={skill.name}
                 name={skill.name}
-                level={skill.level}
+                years={skill.years}
                 delay={i * 0.06}
               />
             ))}

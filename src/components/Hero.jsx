@@ -125,7 +125,7 @@ export default function Hero() {
 
         {/* Tagline */}
         <p className="text-gray-500 max-w-2xl mx-auto mb-10 text-lg leading-relaxed animate-fade-in-up">
-          Passionate and Driven AI/ML engineer interested in building intelligent systems and processes using LLMs
+          Passionate and Driven AI/ML engineer interested in building intelligent systems and processes using LLMs.
           Currently open to new roles and opportunities in AI/ML and Data Engineering. Drexel University Computer Science graduate.
         </p>
 

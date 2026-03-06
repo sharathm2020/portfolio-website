@@ -6,8 +6,9 @@ const navItems = [
   { label: 'About',      to: 'about' },
   { label: 'Skills',     to: 'skills' },
   { label: 'Projects',   to: 'projects' },
-  { label: 'Experience', to: 'experience' },
-  { label: 'Contact',    to: 'contact' },
+  { label: 'Experience',       to: 'experience' },
+  { label: 'Recommendations', to: 'recommendations' },
+  { label: 'Contact',         to: 'contact' },
 ]
 
 export default function Navbar({ activeSection }) {
