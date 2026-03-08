@@ -79,7 +79,7 @@ export default function Skills() {
             Skills &amp; <span className="gradient-text">Technologies</span>
           </h2>
           <p className="section-subheading max-w-2xl mx-auto">
-            A toolkit built through coursework, personal projects, and professional experience.
+            A toolkit built through coursework, personal projects, and professional experience, sorted by years of experience.
           </p>
         </motion.div>
 

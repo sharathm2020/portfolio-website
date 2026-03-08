@@ -114,7 +114,7 @@ export default function Hero() {
                 'intelligent AI systems.',   1800,
                 'machine learning models.',  1800,
                 'NLP-powered chatbots.',     1800,
-                'LLM applications.',         1800,
+                'LLM powered tools.',         1800,
                 'creative software tools.',  1800,
               ]}
               wrapper="span"
@@ -126,7 +126,9 @@ export default function Hero() {
         {/* Tagline */}
         <p className="text-gray-500 max-w-2xl mx-auto mb-10 text-lg leading-relaxed animate-fade-in-up">
           Passionate and Driven AI/ML engineer interested in building intelligent systems and processes using LLMs.
-          Currently open to new roles and opportunities in AI/ML and Data Engineering. Drexel University Computer Science graduate.
+          Hands on experience in building AI applications such as chatbots, context specific agents/tools, and RAG based pipelines
+          for healthcare, finance and other verticals. Hands-on industry experience in startups and enterprise companies building
+          applications and Data and ML pipelines. Drexel University Computer Science graduate.
         </p>
 
         {/* CTAs */}

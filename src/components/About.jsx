@@ -50,17 +50,18 @@ export default function About() {
               <p>
                 I'm a graduate of{' '}
                 <span className="text-white font-medium">Drexel University</span>,
-                where I developed a deep passion for machine learning, natural language processing,
+                where I developed a deep passion for machine learning, AI powered applications, natural language processing,
                 and large language models. My philosophy is simple: I build what I think is
                 interesting.
               </p>
               <p>
                 From implementing ML algorithms from scratch to deploying LLM-based products, I
-                love the full spectrum — the math behind the models and the code that ships.
+                love the full spectrum — the math behind the models and the implementation of LLMs through the code that ships.
               </p>
               <p>
-                I am passionate about AI Tooling, constantly keeping up to date with the latest and greatest tools.
-                I love experimenting with the new tooling as well, whether it is a new generative AI model, or an open sourced model.
+                I am passionate about AI/ML tools and platforms, constantly keeping up to date with the latest and greatest tools.
+                I constantly build on my skills by building personal projects, whether it is a new generative AI model, open-source model, AI tools such as CoWork/Claude CLI,
+                or a newly found vector database to be used in a RAG pipeline.
               </p>
             </div>
 
