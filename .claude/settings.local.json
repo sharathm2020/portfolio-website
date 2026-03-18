@@ -6,7 +6,9 @@
       "WebFetch(domain:api.github.com)",
       "WebSearch",
       "Bash(npm install:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(gh repo:*)",
+      "WebFetch(domain:argus-production-0f5b.up.railway.app)"
     ]
   }
 }

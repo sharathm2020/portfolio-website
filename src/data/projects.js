@@ -1,5 +1,22 @@
 export const projects = [
   {
+    id: 12,
+    title: "Argus",
+    description:
+      "An AI-powered portfolio risk copilot that synthesizes live market data, SEC 10-K filings, and GPT-4o to generate per-position risk narratives and sentiment scores — delivering a weighted portfolio-level risk assessment in seconds.",
+    tags: ["React", "FastAPI", "GPT-4o", "LangChain", "EDGAR API", "Alpaca API", "Python", "Tailwind CSS", "DistilBERT", "Railway"],
+    github: "https://github.com/sharathm2020/argus",
+    live: "https://argus-production-0f5b.up.railway.app",
+    category: "Full Stack AI",
+    featured: true,
+    features: [
+      "Per-position GPT-4o risk narratives with 3–5 key risk factors each",
+      "Sentiment scored as weighted Positive / Negative / Neutral % via a fine-tuned DistilBERT model trained on financial_phrasebank, FIQA-sentiment-classification, and GPT-4o-generated mixed-label sentences",
+      "SEC 10-K regulatory disclosure extraction via the EDGAR REST API",
+      "Bloomberg-style dark UI built on React, Tailwind and FastAPI, deployed to production with Railway",
+    ],
+  },
+  {
     id: 1,
     title: "BOB Assistant",
     description:
